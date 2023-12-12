@@ -6,8 +6,9 @@ import AdminPanel from "./AdminPanel";
 
 //import UserPanel
 import UserPanel from "./UserPanel";
+import { Link } from "react-router-dom";
 
-const Adminlogin = () => {
+const LoginForm = () => {
   //react hook for error message
   const [errorMessages, setErrorMessages] = useState({});
 
@@ -84,7 +85,7 @@ const Adminlogin = () => {
         onSubmit={handleSubmit}
         action=""
         className=" w-[90%] flex flex-col border-solid border-2 border-black-500
-       items-center rounded-sm md:max-w-[850px] "
+       items-center rounded-sm md:max-w-[850px] bg-slate-300"
       >
         <div
           className="w-full flex flex-col
@@ -157,12 +158,12 @@ const Adminlogin = () => {
       {isAdminSubmitted ? (
         <AdminPanel />
       ) : isUserSubmitted ? (
-        <UserPanel />
-      ) : (
+       <UserPanel/>
+       ) : (
         renderForm
       )}
     </>
   );
 };
 
-export default Adminlogin;
+export default LoginForm;

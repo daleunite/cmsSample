@@ -1,0 +1,40 @@
+{
+    "courses" : [
+        {
+            "id": 1,
+            "course" : "SAMPLE COURSE 1"
+        },
+        {
+            "id": 2,
+            "course" : "SAMPLE COURSE 2"
+        },
+        {
+            "id": 3,
+            "course" : "SAMPLE COURSE 3"
+        },
+        {
+            "id": 4,
+            "course" : "SAMPLE COURSE 4"
+        },
+        {
+            "id": 5,
+            "course" : "SAMPLE COURSE 5"
+        },
+        {
+            "id": 6,
+            "course" : "SAMPLE COURSE 6"
+        },
+        {
+            "id": 7,
+            "course" : "SAMPLE COURSE 7"
+        },
+        {
+            "id": 8,
+            "course" : "SAMPLE COURSE 8"
+        },
+        {
+            "id": 9,
+            "course" : "SAMPLE COURSE 9"
+        }
+    ]
+}
