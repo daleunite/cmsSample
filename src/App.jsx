@@ -1,4 +1,5 @@
-import Adminlogin from "./components/Adminlogin"
+import Adminlogin from "./components/LoginForm"
+import AdminPanel from "./components/AdminPanel"
 
 function App() {
 
