@@ -7,7 +7,7 @@ const Adminlogin = () => {
       <div className="h-[100vh] flex justify-center items-center">
         <form
           action=""
-          className=" w-[90%] flex flex-col border-solid border-2 border-black-600
+          className=" w-[90%] flex flex-col border-solid border-2 border-black-500
            items-center rounded-sm md:max-w-[850px] "
         >
          <div className="w-full flex flex-col
