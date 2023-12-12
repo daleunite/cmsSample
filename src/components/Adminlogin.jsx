@@ -29,7 +29,7 @@ const Adminlogin = () => {
           <div className="  flex justify-between text-blue-700">
             <div className="flex gap-2">
               <input type="checkbox" name="checks" id="check" className="cursor-pointer" />
-              <label htmlFor="check">Remeber Me</label>
+              <label htmlFor="check" className="cursor-pointer">Remeber Me</label>
             </div>
             <div className=" cursor-pointer">
               <span>Forget Password?</span>
@@ -38,7 +38,7 @@ const Adminlogin = () => {
           <button className="w-full mt-10 bg-blue-500 py-2">Login</button>
           <div className="flex pt-5 pb-10 gap-3">
             <span>Don't Have An Account?</span>
-            <span className=" font-semibold">Click Here</span>
+            <span className=" font-semibold cursor-pointer">Click Here</span>
           </div>
           </div>
         </form>
