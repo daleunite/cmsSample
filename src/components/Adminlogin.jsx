@@ -6,7 +6,7 @@ const Adminlogin = () => {
       <div className="h-[100vh] flex justify-center items-center">
         <form
           action=""
-          className="h-[80vh] w-[90%] flex flex-col border-solid border-2 border-black-600
+          className=" w-[90%] flex flex-col border-solid border-2 border-black-600
            items-center rounded-sm md:max-w-[950px]"
         >
           <span className="text-[1.8rem] mt-5  font-bold">Log In</span>
@@ -36,7 +36,7 @@ const Adminlogin = () => {
             </div>
           </div>
           <button className="w-full mt-10 bg-blue-500 py-2">Login</button>
-          <div className="flex pt-5 gap-3">
+          <div className="flex pt-5 pb-10 gap-3">
             <span>Don't Have An Account?</span>
             <span className=" font-semibold">Click Here</span>
           </div>
