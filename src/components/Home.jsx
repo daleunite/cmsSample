@@ -4,11 +4,11 @@ import data from "../data/course.json";
 const Home = () => {
   const { courses } = data;
 
+
   return (
     <>
       <div className="w-full h-[100vh] flex flex-wrap justify-between p-10 mt-10">
         {courses.map((c, idx) => {
-       
           return (
             <div
               key={idx}
