@@ -11,6 +11,9 @@ export default {
         sm: "768px",
         md: "1060px",
       },
+      colors: {
+        'primary': '#5E9AD7'
+      }
     },
   },
   plugins: [],

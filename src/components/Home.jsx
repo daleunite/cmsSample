@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import data from "../data/course.json";
+import Nav from './Nav'
 
 const Home = () => {
   const { courses } = data;
@@ -7,6 +8,7 @@ const Home = () => {
 
   return (
     <>
+    <Nav/>
       <div className="w-full h-[100vh] flex flex-wrap justify-between p-10 mt-10">
         {courses.map((c, idx) => {
           return (
