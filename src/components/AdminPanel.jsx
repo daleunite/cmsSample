@@ -8,6 +8,9 @@ import Courses from "./admin/Courses";
 import Sample from "./admin/Sample";
 import Users from "./admin/Users";
 
+import { FaTrash } from "react-icons/fa";
+import { IoMdRefresh, IoMdAdd } from "react-icons/io";
+
 const AdminPanel = () => {
   return (
     <div className="flex flex-col justify-center items-center">
@@ -41,7 +44,21 @@ const AdminPanel = () => {
         <div className="h-[90vh] w-full flex items-center justify-between">
           <div className="h-[75vh] border-solid border-[.05rem] border-l-500 border-black"></div>
           <div className="h-[90vh] w-full pt-10 pl-5">
-            <p>Welcome back, Admin</p>
+            <div className="flex justify-between">
+              <p>Welcome back, Admin</p>
+              <div className="flex gap-3 pr-3 ">
+
+              <span>
+                <IoMdAdd />
+              </span>
+              <span>
+                <FaTrash />
+              </span>
+              <span>
+                <IoMdRefresh />
+              </span>
+            </div>
+              </div>
             <Courses />
           </div>
         </div>
