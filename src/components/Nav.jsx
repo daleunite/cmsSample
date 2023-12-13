@@ -11,7 +11,7 @@ const Nav = () => {
     <>
       <div
         className=" flex justify-between gap-5 pt-5 bg-white pb-3 sticky top-0 border-solid  
-       shadow-lg"
+shadow-lg"
       >
         <Link to="/" className="flex pl-2">
           <img src={logoIcon} alt="logoicon" className="w-[10rem] h-[2.5rem]" />
